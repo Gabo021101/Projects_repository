@@ -1,0 +1,72 @@
+.custom-link {
+    margin-top: 45px;
+    margin-right: 130px;
+    font-size: 19px;
+
+    position: relative;
+    /* Establece una posición relativa para el elemento de enlace */
+    text-decoration: none;
+}
+
+.custom-link:before {
+    content: '';
+    /* Crea un pseudo-elemento para la línea */
+    position: absolute;
+    /* Establece una posición absoluta */
+    bottom: -2px;
+    /* Ajusta la posición vertical de la línea */
+    left: 0;
+    /* Ajusta la posición horizontal inicial de la línea */
+    width: 0;
+    /* Inicialmente, la línea tiene una longitud cero */
+    height: 2px;
+    /* Establece el grosor de la línea */
+    background-color: green;
+    /* Establece el color de la línea */
+    transition: width 0.3s ease;
+    /* Agrega una transición suave al efecto */
+}
+
+.custom-link:hover:before {
+    width: 100%;
+    /* Ajusta la longitud de la línea al 100% para que se dibuje de izquierda a derecha */
+}
+
+.navbar-brand {
+    margin-right: 130px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.inicio-de-sesion {
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+#icono-usuario {
+    margin-right: 10px;
+    /* Ajusta el valor según el espacio deseado */
+}
+
+.transparent-button {
+    background-color: transparent;
+    border: none;
+
+
+    color: #000;
+    /* Color de texto por defecto */
+    text-decoration: none;
+    /* Sin subrayado por defecto */
+}
+
+.transparent-button:hover {
+    color: green;
+    /* Color verde al pasar el cursor */
+    text-decoration: underline;
+    /* Subrayado al pasar el cursor */
+}
+
+.language-switch {
+    margin-right: 50px;
+    margin-bottom: 36px;
+}
