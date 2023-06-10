@@ -38,7 +38,7 @@
 .green-bar {
     background-color: #4ec31b;
 
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     position: absolute;
     top: calc(100% - 50px);
@@ -63,7 +63,7 @@
     margin: 60px 0 0 220px;
     border-radius: 30px;
 
-   
+
 }
 
 .card-img-top {
@@ -111,27 +111,93 @@
 
 
     position: relative;
-    z-index: 9999;
+    z-index: 999;
     /* Ajusta el valor del z-index según sea necesario para que esté por encima de la franja verde */
     /* Resto de estilos para el .card */
 
     margin: 85px 170px -20px -15px;
     border-radius: 30px;
 }
+
 .card-title3 {
-    margin: 30px 0 0 30px;
+    margin: 30px 0 0 40px;
     font-size: 25px;
 }
 
 .contenido-card3 {
-    margin: 50px 0 0 30px;
+    margin: 50px 0 0 40px;
     font-size: 17.5px;
 }
+
 .green-line {
     width: 10%;
     height: 2px;
     background-color: green;
     margin: 40px 0 0 30px
+}
 
-  }
+.grid-container2 {
 
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+}
+
+.card-img-top1 {
+
+    border: 0px solid #000;
+    /* Ancho del borde y color */
+    border-radius: 30px;
+    /* Radio de esquina del borde */
+    position: relative;
+    z-index: 9999;
+    /* Ajusta el valor del z-index según sea necesario para que esté por encima de la franja verde */
+    /* Resto de estilos para el .card */
+    margin-top: -20px;
+
+    height: 85%;
+    width: 78%;
+}
+
+.card-text4 {
+    background-color: #ffffff;
+
+
+    position: relative;
+    z-index: 999;
+    /* Ajusta el valor del z-index según sea necesario para que esté por encima de la franja verde */
+    /* Resto de estilos para el .card */
+
+    margin: 0 -18px 72px 170px;
+    border-radius: 30px;
+}
+
+.card-title4 {
+    margin: 30px 0 0 40px;
+    font-size: 25px;
+}
+
+.contenido-card4 {
+    margin: 50px 60px 0 40px;
+    font-size: 17.5px;
+}
+
+.green-line {
+    width: 10%;
+    height: 2px;
+    background-color: green;
+    margin: 40px 0 0 30px
+}
+
+.card_2 {
+    position: relative;
+    z-index: 9999;
+    /* Ajusta el valor del z-index según sea necesario para que esté por encima de la franja verde */
+    /* Resto de estilos para el .card */
+
+    margin-top: -20px;
+    border-radius: 30px;
+    
+
+}
