@@ -1,0 +1,12 @@
+.green-bar {
+    background-color: #4ec31b;
+
+    height: 245vh;
+    width: 100%;
+    position: absolute;
+    top: calc(100% - 50px);
+    /* Ajusta la posición superior de la franja verde según tus necesidades */
+    left: 0;
+    z-index: 999;
+    opacity: 0.65;
+}
